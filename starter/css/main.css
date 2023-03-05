@@ -280,6 +280,10 @@ Navbar
   justify-content: space-between;
   align-items: center;
 }
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
 
 .nav-header img {
   width: 200px;
@@ -302,5 +306,13 @@ Navbar
   letter-spacing: var(--letterSpacing);
   padding: 1rem 0;
   border-top: 1px solid var(--grey-500);
+  transition: var(--transition);
+}
+
+.nav-link:hover{
+  color: var(--primary-500);
+}
+.contact-link a {
+  padding: 0.15rem 1rem;
 
 }
