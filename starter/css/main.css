@@ -299,8 +299,8 @@ Navbar
   text-align: center;
   text-transform: capitalize;
   color: var(--grey-900);
-  letter-spacing: var(--);
+  letter-spacing: var(--letterSpacing);
   padding: 1rem 0;
-  border-top: 1px;
-  
+  border-top: 1px solid var(--grey-500);
+
 }
