@@ -264,12 +264,17 @@ Navbar
   display: flex;
   justify-content: center;
   align-items: center;
-  background: blue;
+  /* background: blue; */
 
 }
+
 .nav-center {
   width: 90vw;
   max-width: var(--max-width);
-  background: red;
+  /* background: red; */
+}
+
+.nav-header {
+  height: 6rem;
 
 }
