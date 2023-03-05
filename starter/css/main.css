@@ -336,4 +336,24 @@ Navbar
     display: flex;
     align-items: center;
   }
+  .nav-header{
+    height: auto;
+    margin-right: 10px;
+  }
+  .nav-links {
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    /* background: red; */
+  }
+  .nav-link {
+    padding: 0;
+    border-top: none;
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  .contact-link {
+    margin-left: auto;
+  }
 }
