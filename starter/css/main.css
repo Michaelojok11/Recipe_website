@@ -365,14 +365,15 @@ page
 ===============
 */
 .page {
-  /* background: red; */
+  background: red;
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
   padding-top: 2rem;
-  min-height: calc (100vh - (6rem + 4rem));
-}
+  min-height: calc(100vh - (6rem + 4rem) );
 
+
+}
 /*
 =============== 
 Footer
