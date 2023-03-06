@@ -365,7 +365,7 @@ page
 ===============
 */
 .page {
-  background: red;
+  /* background: red; */
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -394,6 +394,23 @@ Footer
 .page-footer a {
   color: var(--primary-500);  
 }
+
+
+/*
+=============== 
+Footer
+===============
+*/
+
+
+
+/*
+=============== 
+Footer
+===============
+*/
+
+
 
 
 /*
