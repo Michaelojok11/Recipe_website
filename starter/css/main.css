@@ -403,6 +403,7 @@ Hero
 */
 .hero {
   height: 40vh;
+  background: url('../assets/main.jpeg');
 }
 
 
