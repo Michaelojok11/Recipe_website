@@ -403,7 +403,21 @@ Hero
 */
 .hero {
   height: 40vh;
-  background: url('../assets/main.jpeg');
+  background: url('../assets/main.jpeg') center/cover no-repeat;
+  /* color: white; */
+  margin-bottom: 2rem;
+  border-radius: var(--borderRadius);
+  position: relative;
+}
+.hero-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: var(--borderRadius);
 }
 
 
