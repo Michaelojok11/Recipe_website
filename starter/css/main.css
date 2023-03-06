@@ -409,6 +409,7 @@ Hero
   border-radius: var(--borderRadius);
   position: relative;
 }
+
 .hero-container {
   position: absolute;
   width: 100%;
@@ -418,8 +419,22 @@ Hero
   background: rgba(0, 0, 0, 0.4);
   color: white;
   border-radius: var(--borderRadius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text {
+  text-align: center;
+  color: var(--white);
 }
 
+@media screen and (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+}
 
 
 /*
