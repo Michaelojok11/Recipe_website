@@ -398,9 +398,12 @@ Footer
 
 /*
 =============== 
-Footer
+Hero
 ===============
 */
+.hero {
+  height: 40vh;
+}
 
 
 
