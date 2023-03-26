@@ -539,10 +539,21 @@ Error
 
 /*
 =============== 
-Recipes
+About
 ===============
 */
+.about-page h2 {
+  text-transform: none;
+  font-weight: bold;
+}
+.about-page {
+  display: grid;
+  gap: 2rem 4rem;
+}
 
+.featured-title{
+  text-align: center;
+}
 /*
 =============== 
 Footer
