@@ -444,12 +444,10 @@ Recipes
 */
 .recipes-container {
   display: grid;
-  gap: 2rem 1rem;
-  border: 2px solid red;
+  gap: 2rem 1rem; 
 }
 
 .tags-container {
-  border: 2px solid blue;
   order: 1;
   display: flex;
   flex-direction: column;
@@ -459,9 +457,8 @@ Recipes
   display: grid;
   gap: 2rem 1rem;
   padding-bottom: 3rem;
-  border: 2px solid green;
+ }
 
-}
 .tags-container h4 {
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -522,14 +519,29 @@ Recipes
   .tags-list {
     grid-template-columns: 1fr;
   }
-  
 }
 @media screen and (min-width: 1200px) {
+  .recipes-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   
 }
 
+/*
+=============== 
+Error
+===============
+*/
+.error-page{
+  text-align: center;
+  padding-top: 5rem;
+}
 
-
+/*
+=============== 
+Recipes
+===============
+*/
 
 /*
 =============== 
