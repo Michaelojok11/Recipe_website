@@ -504,13 +504,24 @@ Recipes
   .recipes-list{
     grid-template-columns: 1fr 1fr;
   }
-  .recipe-img{
+  .recipe-img {
     height: 10rem;
   }
-
 }
 
 @media screen and (min-width: 992px) {
+  .recipes-container{
+    grid-template-columns: 200px 1fr;
+  }
+  .recipe p {
+    font-size: 0.5rem;
+  }
+  .tags-container{
+    order: 0;
+  }
+  .tags-list {
+    grid-template-columns: 1fr;
+  }
   
 }
 @media screen and (min-width: 1200px) {
