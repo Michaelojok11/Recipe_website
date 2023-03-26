@@ -462,7 +462,7 @@ Recipes
   border: 2px solid green;
 
 }
-.tags-container {
+.tags-container h4 {
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
