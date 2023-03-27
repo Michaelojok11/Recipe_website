@@ -609,6 +609,10 @@ Tags page
   text-align: center;
   color:var(--white);
   transition: var(--transition);
+  padding: 0.75rem 0;
+}
+.tag:hover{
+  background: var(--primary-500);
 }
 
 /*
