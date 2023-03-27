@@ -653,6 +653,26 @@ Single recipe page
 .recipe-icons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+.recipe-icons i {
+  font-size: 1.5rem;
+  color: var(--primary-500);
+}
+.recipe-icons h5, .recipe-icons p {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+.recipe-icons p {
+  color: var(--grey-600);
+}
+
+.recipe-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 
