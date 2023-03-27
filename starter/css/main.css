@@ -635,11 +635,25 @@ Tags page
 }
 /*
 =============== 
-Recipe template
+Single recipe page
 ===============
 */
+.recipe-hero {
+  display: grid;
+  gap: 3rem;
+}
+.recipe-hero-img {
+  height: 300px;
+  border-radius: var(--borderRadius);
+}
 
-
+.recipe-info p {
+  color: var(--grey-600);
+}
+.recipe-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
 
 
