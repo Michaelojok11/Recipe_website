@@ -593,3 +593,27 @@ Contact Page
   }
 }
 
+/*
+=============== 
+Tags page
+===============
+*/
+.tags-wrapper {
+  display: grid;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+.tag {
+  background: var(--grey-500);
+  border-radius: var(--borderRadius);
+  text-align: center;
+  color:var(--white);
+  transition: var(--transition);
+}
+
+/*
+=============== 
+Contact Page
+===============
+*/
+
